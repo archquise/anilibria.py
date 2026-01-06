@@ -38,7 +38,6 @@ setup(
         "aiohttp>=3.8.3",
         "attrs==22.2.0",
         "cattrs==22.2.0",
-        "orjson==3.8.5",
         "tomli==2.0.1",
     ],
     license="GPL-3.0 License",

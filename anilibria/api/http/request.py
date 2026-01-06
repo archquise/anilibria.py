@@ -1,7 +1,7 @@
 from logging import getLogger
 
 from aiohttp import ClientResponse, ClientSession
-from orjson import JSONDecodeError, loads
+from json import JSONDecodeError, loads
 
 from ...utils.serializer import prepare_payload
 from ..error import HTTPException

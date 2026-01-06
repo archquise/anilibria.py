@@ -2,7 +2,7 @@ import asyncio
 from logging import getLogger
 
 from aiohttp import ClientWebSocketResponse, WSMessage, WSMsgType
-from orjson import dumps, loads
+from json import dumps, loads
 
 from ...const import __api_url__
 from ..dispatch import Dispatch
